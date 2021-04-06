@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
 :root {
-    --primary: #F2C94C;
-    --black:var(--black);
+    --primary: #003049;
+    --black:#eae2b7;
     --width-break: 600px;
 } 
 
 body {
     margin: 0;
     font-family: 'Kalam', cursive;
-    color: #333333;
     scroll-behavior: smooth;
 }
 
@@ -45,6 +44,11 @@ textarea{
     padding: 1rem 2rem;
     font-family: 'Kalam', cursive;
     font-size: large;
+    color: var(--black);
+}
+
+.line{
+    color: var(--primary);
 }
 
 
@@ -63,10 +67,12 @@ footer{
     position: fixed;
     padding: 1rem;
     bottom: 0;
+    color:var(--black);
 }
 
 
 footer p {
     max-width: var(--width-break);
     margin: auto;
+    color:var(--black);
 }
